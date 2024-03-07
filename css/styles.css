@@ -60,7 +60,7 @@ body {
 
 header .container {
   max-width: 1158px;
-  padding: 0 15px 0 15px;
+
   margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -69,6 +69,7 @@ header .container {
 
 .header-hero {
   border-bottom: 1px solid #e7e9fc;
+  padding: 0 15px 0 15px;
 }
 
 .container-headerr {
@@ -207,6 +208,9 @@ header .container {
 .info-container {
   display: flex;
   gap: 24px;
+}
+
+.info-list {
   flex-basis: calc((100%-3 * 24px) / 4);
 }
 /*================ section2/end ============== */
