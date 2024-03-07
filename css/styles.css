@@ -60,8 +60,7 @@ body {
 
 header .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -78,6 +77,10 @@ header .container {
   justify-content: space-between;
   padding-right: 332px;
   align-items: center;
+}
+
+.header {
+  margin-right: 76px;
 }
 
 .container-headerr .header-link {
@@ -142,7 +145,6 @@ header .container {
 }
 
 /* .container-header {
-  
   margin: 0 auto;
 } */
 
@@ -205,7 +207,7 @@ header .container {
 .info-container {
   display: flex;
   gap: 24px;
-  width: calc((100%-3 * 24px) / 4);
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 /*================ section2/end ============== */
 
@@ -249,6 +251,7 @@ header .container {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -264,7 +267,6 @@ header .container {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 /*================ section3/end ============== */
@@ -280,7 +282,6 @@ header .container {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title {
@@ -296,6 +297,7 @@ header .container {
 
 .portfolio-list {
   background: #fff;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title-list {
