@@ -56,20 +56,20 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 header .container {
   max-width: 1158px;
-
   margin: 0 auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   display: flex;
+  padding: 0 15px 0 15px;
 }
 
 .header-hero {
   border-bottom: 1px solid #e7e9fc;
-  padding: 0 15px 0 15px;
 }
 
 .container-headerr {
@@ -78,10 +78,6 @@ header .container {
   justify-content: space-between;
   padding-right: 332px;
   align-items: center;
-}
-
-.header {
-  margin-right: 76px;
 }
 
 .container-headerr .header-link {
@@ -157,6 +153,7 @@ header .container {
   color: #fff;
   padding-bottom: 48px;
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .your-business-btn {
@@ -171,6 +168,7 @@ header .container {
   border-radius: 4px;
   padding: 6px, 32px, 16px, 32px;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -352,7 +350,14 @@ header .container {
   color: #f4f4fd;
 }
 
-.header {
+.header-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
 }
