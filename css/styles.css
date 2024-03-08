@@ -11,6 +11,9 @@ p {
 
 img {
   display: block;
+  min-width: 100%;
+  /* max-width: 100%;
+  height: auto; */
 }
 
 ul {
@@ -66,6 +69,7 @@ header .container {
   padding-bottom: 24px; */
   display: flex;
   padding: 0 15px 0 15px;
+  align-items: center;
 }
 
 .header-hero {
@@ -74,9 +78,9 @@ header .container {
 
 .container-headerr {
   display: flex;
-  flex-grow: 1;
+  /* flex-grow: 1;
   justify-content: space-between;
-  padding-right: 332px;
+  padding-right: 332px; */
   align-items: center;
 }
 
@@ -93,7 +97,7 @@ header .container {
 
 .header-title {
   color: #2e2f42;
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 
 .header-nav-link {
@@ -103,6 +107,7 @@ header .container {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0 24px;
+  display: block;
 }
 
 .header-nav-link:hover,
@@ -111,6 +116,7 @@ header .container {
 }
 
 .header-address {
+  margin-left: auto;
   font-style: normal;
 }
 
@@ -329,6 +335,7 @@ header .container {
 /*================ footer ============== */
 .footer .container {
   max-width: 1158px;
+  margin: 0 auto;
 }
 
 .footer {
